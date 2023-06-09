@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Timer",
+  "version": "1.0",
+  "description": "Improve your productivity with a timer.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scripts/content.js"],
+      "css": ["styles/content.css"]
+    }
+  ]
+}
