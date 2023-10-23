@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "LCProbURLGenerator",
+  "version": "1.0",
+  "description": "Improve your productivity with a timer.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs"],
+  "host_permissions": ["https://*/"]
+}
